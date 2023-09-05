@@ -1,0 +1,59 @@
+@media (min-width:397px) and (max-width:470px) {
+    .first-page-container {
+        scale: 0.9;
+    }
+}
+
+@media (max-width:396px) {
+    .first-page-container {
+        scale: 0.8;
+    }
+
+    .amount-div,
+    .category-div,
+    .difficulty-div {
+        display: block;
+    }
+
+    .amount-div input,
+    .category-div select,
+    .difficulty-div select {
+        width: 80%;
+    }
+}
+
+@media (min-width:350px) and (max-width:434px) {
+    .quiz-div .quiz-subject {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    .score-div span {
+        font-size: 1.5rem;
+    }
+
+    .score-div p {
+        font-size: 1.2rem;
+    }
+
+    #submit-btn {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:349px) {
+    .quiz-div .quiz-subject {
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+    .score-div span {
+        font-size: 1.2rem;
+    }
+
+    .score-div p {
+        font-size: 1rem;
+    }
+
+    #submit-btn {
+        font-size: 1rem;
+    }
+}
